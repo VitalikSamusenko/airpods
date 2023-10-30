@@ -111,3 +111,33 @@ ul{
     transform: translate3d(-140px, 418px, 0);
     z-index: -1;
 }
+ 
+.choose-color{
+    padding-top: 45px;
+    text-align: center;
+}
+
+.choose-color__title{
+    font-size: 36px;
+    font-weight: 700;
+    max-width: 555px;
+    margin: 0 auto;
+}
+
+.choose-color__text{
+    max-width: 555px;
+    margin: 20px auto 0;
+}
+
+.choose-color__list{
+    margin-top: 80px;
+    display: flex; 
+    gap: 40px;
+    justify-content: center;
+}
+
+.choose-color__btn{
+    border-radius: 20px;
+    border: 1px solid #777;
+    padding: 50px 55px;
+}
