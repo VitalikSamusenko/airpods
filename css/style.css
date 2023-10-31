@@ -224,7 +224,7 @@ ul{
 
 .audio__wrapper {
     text-align: center;
-    padding-bottom: 30vh;
+    padding-bottom: 50vh;
 }
 
 .audio__text {
@@ -245,4 +245,19 @@ ul{
 .footer{
     padding: 50px 0 40px;
     background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+}
+
+.footer__text {
+    margin: 20px 0;
+}
+
+.footer__list {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
