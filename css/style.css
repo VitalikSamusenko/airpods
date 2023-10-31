@@ -140,6 +140,7 @@ ul{
     display: flex; 
     gap: 40px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .choose-color__btn{
@@ -260,4 +261,116 @@ ul{
     justify-content: center;
     align-items: center;
     gap: 20px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 1469px) {
+    .title{
+        flex-wrap: wrap;
+        font-size: 180px;
+        transform: translate(130px, 30px);
+    }
+    .header__content-images img{
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 1349px) {
+    .title{
+        transform: none;
+        font-size: 140px;
+        margin-top: 20vh;
+        left: 0;
+        right: 0;
+        justify-content: center;
+        display: flex;
+    }
+    .title span {
+        transform: none;
+        z-index: 1;
+    }
+}
+
+@media (max-width: 930px) {
+    .title{
+        position: relative;
+        font-size: 100px;
+        padding-top: 0;
+    }
+    .title--m{
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .composition{
+        margin: 60px 0;
+    }
+    .choose-color__list{
+        gap: 16px;
+    }
+    .main__title{
+        font-size: 36px;
+    }
+    .case{
+        padding: 60px 0;
+    }
+    .energy__title{
+        margin-top: 60px;
+    }
+    .energy__num{
+        font-size: 110px;
+        margin-top: 20px;
+    }
+    .energy__text{
+        margin-top: 20px;
+    }
+    .title{
+        font-size: 58px;
+    }
+}
+
+@media (max-width: 560px) {
+    .menu__list{
+        margin-left: 20px;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: flex-end;
+    }
+    .header__top{
+        align-items: center;
+    }
+    .choose-color__list{
+        margin-top: 40px;
+    }
+    .composition{
+        margin-top: 40px;
+    }
+    .case{
+        margin: 40px 0;
+    }
+    .composition__description{
+        flex-wrap: wrap;
+        text-align: center;
+        gap: 40px;
+        justify-content: center;
+    }
+    .composition__description-text p {
+        width: 100%;
+    }
+}
+
+@media (max-width: 414px) {
+    .main__title, .choose-color__title{
+        font-size: 28px;
+    }
+    .energy__num{
+        font-size: 92px;
+    }
+    .case img{
+        width: 100%;
+    }
+    .title{
+        font-size: 50px;
+    }
 }
