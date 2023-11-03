@@ -8,7 +8,6 @@ chooseColors.forEach((el) => {
 function changeColor(e) {
     const target = e.currentTarget
     const btn = target.dataset.button
-    console.log(target)
     const contentActive = document.querySelectorAll(`.${btn}`)
 
     chooseColors.forEach((i) => i.classList.remove('choose-color__btn--active'))
